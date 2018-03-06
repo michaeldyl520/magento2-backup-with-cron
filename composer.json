@@ -1,0 +1,26 @@
+{
+  "name": "michaeldyl520/magento2-mysql-backup-with-cron",
+  "description": "This is the use of magento2 scheduled tasks perform their own shell command to back up the database operation.",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "michaeldyl520",
+      "homepage": "https://github.com/michaeldyl520",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Jiliuke\\Backup\\": ""
+    }
+  }
+}
